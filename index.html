@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calcolatore Di Budget</title>
+</head>
+<body>
+    <div class="operazioni">
+        <h1>Calcolatore Di Budget</h1>
+        <form id="calcolatore-budget">
+            <label for="budget">Inserisci il tuo budget: </label>
+            <input type="number" name="budget" id="budget" required>
+            <br>
+            <label for="spese">Inserisci le tue spese: </label>
+            <input type="number" name="spese" id="spese" required>
+            <br>
+            <button type="submit">Esegui</button>
+        </form>
+    </div>
+    <br>
+    <div class="risultato">
+        <p>Il tuo saldo è di: <span id="saldo">0.00</span> €</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

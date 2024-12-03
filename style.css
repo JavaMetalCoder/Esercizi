@@ -1,0 +1,66 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+
+.operazioni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1px #333;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.operazioni h2 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.operazioni form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.risultato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1px #333;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
