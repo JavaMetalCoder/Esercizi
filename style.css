@@ -64,3 +64,14 @@ input[type="submit"]:hover {
     margin-right: auto;
     
 }
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    
+}
